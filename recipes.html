@@ -20,20 +20,58 @@
   <!-- Your own CSS -->
   <link rel="stylesheet" href="styles.css">
 
-  <title>Hello, world!</title>
+  <title>Recipes</title>
 </head>
 
 <body>
-  <h1>Hello, world!</h1>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+<!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Dana's Delights</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+              
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+   <!-- fluid jumbotron -->
+   <div class="shakshuka jumbotron">
+        <div class="container">
+            <h1 class="display-4">Shakshuka</h1>
+            <img src="shakshuka.jpg" alt="Shakshuka" style="width: 400px" class= "center">
+            <p class="lead">I love Shakshuka! It is the perfect savory easy meal for anytime of the day and requires just a few basic ingredients.</p>
+        </div>
+    </div>
+
+  <a class="ingredients" >Ingredients:</a>
+    <ul>
+      <li>16oz tomato puree</li>
+      <li>4 fresh eggs</li>
+      <li>1 red bell pepper ripped into 2 inch pieces</li>
+      <li>Cumin</li>
+      <li>Fresh bread for dipping</li>
+    </ul>
+  
+  <a class="steps" >Steps:</a>
+    <ol>
+      <li>Heat skillet to medium/high</li>
+      <li>Sautee bell pepper and cumin for a couple minutes in olive oil</li>
+      <li>Add tomato puree</li>
+      <li>Let mixture cook for 2-3 minutes until thickening begins</li>
+      <li>Crack in eggs and lower heat and COVER</li>
+      <li>Lift lid 3-4 minutes later et voila!!</li>
+    </ol>
+</nav>
+
+
+
 </body>
 
 </html>
